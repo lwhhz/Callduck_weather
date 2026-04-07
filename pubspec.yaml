@@ -30,9 +30,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/icons/
-    - assets/images/
   fonts:
     - family: MiSans
       fonts:
@@ -43,5 +40,5 @@ msix_config:
   publisher_display_name: "Callduck" # 发布者名称
   identity_name: "com.trae.weather"
   msix_version: 1.0.0.0            # 版本号格式：主.次.构建.修订
-  logo_path: "assets/icons/weather_icon.png"      # 安装包图标路径
+  # logo_path: "assets/icons/weather_icon.png"      # 安装包图标路径
   capabilities: "internetClient microphone"
