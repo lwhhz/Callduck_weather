@@ -7,5 +7,14 @@
 ### 应用截图
 <img src="https://github.com/user-attachments/assets/3c9052ce-a582-437d-9f75-4f0fa7eaf403" width="45%"/> <img src="https://github.com/user-attachments/assets/0ddc0ac0-2b4d-4cee-994b-7f1d8ee02268" width="45%"/>
 
+### 编译
+```
+//编译安卓apk
+flutter build apk
+
+//编译Windows应用程序
+flutter build windows
+```
+
 这个项目是开源的，包括开源所需的文件全都是ai生成的  
 因为本人是0基础小白所以有什么问题的话可以和我说，如果有人有反对意见我就下架此项目，不想吵架。
