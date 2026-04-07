@@ -1,0 +1,47 @@
+name: callduck_weather
+description: 一个完全基于Flutter的MD3天气应用，由TraeAgent编写.
+
+publish_to: 'none'
+
+version: 1.14.514+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.0.0
+  geolocator: ^14.0.2
+  flutter_riverpod: ^3.3.1
+  awesome_notifications: ^0.11.0
+  desktop_window: ^0.4.0
+  shared_preferences: ^2.2.0
+  go_router: ^17.1.0
+  file_picker: ^8.0.0
+  image: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  msix: ^3.16.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: MiSans
+      fonts:
+        - asset: MiSans-Semibold.ttf
+          weight: 600
+msix_config:
+  display_name: "TRAE实战"        # 安装界面显示的名称
+  publisher_display_name: "Callduck" # 发布者名称
+  identity_name: "com.trae.weather"
+  msix_version: 1.0.0.0            # 版本号格式：主.次.构建.修订
+  logo_path: "assets/icons/weather_icon.png"      # 安装包图标路径
+  capabilities: "internetClient microphone"
